@@ -1,0 +1,22 @@
+[
+    {
+      "name": "QuickCash App",
+      "author": "Logan Anderson",
+      "languages": ["Firebase", "Android Studio"],
+      "description": "Developed a mobile application for posting quick jobs."
+    },
+    {
+      "name": "LawnLog App",
+      "author": "Logan Anderson",
+      "languages": ["React Native", "Expo", "Firebase"],
+      "description": "A mobile application for lawn care business owners."
+    },
+    {
+      "name": "Battleships Game",
+      "author": "Logan Anderson",
+      "languages": ["Java"],
+      "description": "A game that replicates the classic Battleships game."
+    }
+  ]
+  
+  

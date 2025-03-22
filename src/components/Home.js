@@ -3,9 +3,13 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <h1>Welcome to Logan's Portfolio!</h1>
-      <p>My name is Logan Anderson, and I am currently a fourth year Bachelor of Computer Science student attending Dalhouse University.
-        I am a developer with knowledge in web and mobile app development. This portfolio site will showcase my skills and knowledge within areas of computer science.
+      <h1>Welcome to My Portfolio</h1>
+      <p>
+        Hi, my name is Logan Anderson, and I am a fourth-year Computer Science student.
+      </p>
+      <p>
+        I have experience working with various technologies such as React, Firebase, Java, and Android Studio. 
+        Throughout my studies, I've had the opportunity to work on several exciting projects.
       </p>
     </div>
   );

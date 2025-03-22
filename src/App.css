@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #00796b; 
+  background-color: #00796b;
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -16,11 +16,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-header h1 {
-  font-size: 18px;
-  padding-left: 50px;
 }
 
 nav {
@@ -55,56 +50,36 @@ nav ul li a:hover {
   background-color: #00796b;
 }
 
-.home-container {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
 }
 
-.home-container h1 {
-  font-size: 40px;
-  color: #00796b;
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
 }
 
-.home-container p {
-  font-size: 18px;
+header.dark {
+  background-color: #333333; 
+}
+
+nav.dark {
+  background-color: #222222; 
+}
+
+button.dark {
+  background-color: #555555;
+  color: #ffffff; 
+}
+
+.home-container h1, .about-container h1, .projects-container h1 {
+  color: #00796b;  
+}
+
+.home-container p, .about-container p, .projects-container p {
   color: #555; 
-}
-
-.about-container {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.about-container h1, .about-container h2 {
-  color: #00796b;
-}
-
-.about-container p {
-  font-size: 18px; 
-  color: #555; 
-}
-
-.projects-container {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.projects-container h1 {
-  text-align: center;
-  font-size: 40px; 
-  color: #00796b;
-}
-
-.projects-container p {
-  font-size: 18px;
-  color: #555;
 }
 
 footer {
@@ -115,6 +90,10 @@ footer {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+footer.dark {
+  background-color: #222222; 
 }
 
 a:focus, a:hover {
